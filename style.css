@@ -229,7 +229,6 @@ footer {
 @media (max-width: 712px) {
   .elite_content {
     width: 100%;
-    height: 100%;
     padding: 1rem 0.5rem;
     flex-direction: column;
     justify-content: flex-start;
