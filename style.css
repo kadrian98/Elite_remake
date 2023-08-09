@@ -231,6 +231,7 @@ footer {
     padding: 1rem 0.5rem;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
   }
   .elite_menu {
     display: flex;
