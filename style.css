@@ -105,7 +105,8 @@ body {
   );
   font-size: 32px;
   position: absolute;
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   height: 100vh;
   display: none;
 }
@@ -229,8 +230,9 @@ footer {
   .elite_content {
     width: 100%;
     height: 100%;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
     flex-direction: column;
+    justify-content: flex-start;
   }
   .elite_menu {
     display: flex;
