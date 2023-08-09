@@ -113,9 +113,9 @@ body {
 
 .popup_location i {
   position: absolute;
-  top: 20%;
-  left: 20%;
-  color: #000;
+  top: 1rem;
+  left: 1rem;
+  color: #fff;
   cursor: pointer;
 }
 
@@ -226,6 +226,13 @@ footer {
 }
 
 @media (max-width: 712px) {
+  .popup_background {
+    width: 98vw;
+    padding: 5px;
+  }
+  .home-article {
+    font-size: 15px;
+  }
   .elite_content {
     width: 100%;
     padding: 1rem 0.5rem;
